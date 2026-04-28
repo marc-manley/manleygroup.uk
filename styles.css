@@ -15,6 +15,11 @@ body {
   text-align: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .links a {
   color: white;
   text-decoration: none;
