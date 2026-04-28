@@ -13,6 +13,12 @@ body {
   border-radius: 20px;
   background: #1e293b;
   text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 30px 90px rgba(0,0,0,0.4);
 }
 
 .container {
